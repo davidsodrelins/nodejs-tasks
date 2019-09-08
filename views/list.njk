@@ -1,0 +1,11 @@
+<h1> Lista de Tarefas</h1>
+
+<ul>
+
+  {% for task in tasks %}
+    <li>{{ task }}</li>
+  {% endfor %}
+
+</ul>
+
+<a href="/new">Cadastrar Tarefa</a>
